@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav div {
+    height: 80px;
+    width: 220px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav .plan {
+    background-color: #FF764E;
+}
+
+nav .learn {
+    background-color: #5ED3EB;
+}
+
+nav .involved {
+    background-color: #FFCD69;
+}
+
+.yosemite-about {
+    background-color: #DDB9A3;
+}
+
+span {
+    font-weight: 700;
+}
+footer {
+    background-color: #F9E7DC;
+}
