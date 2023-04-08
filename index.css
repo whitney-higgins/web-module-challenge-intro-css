@@ -49,7 +49,6 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid gray
 }
 
 html {
@@ -95,9 +94,13 @@ nav .involved {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: 'Chelsea Market', cursive;
     margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 .yosemite {
@@ -142,11 +145,31 @@ span {
     font-weight: 700;
 }
 
-.footer-img {
+.yosemite-body {
+    text-align: center;
+}
+
+.yosemite-body .fire-info, .camper-info {
+    width: 20%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+
+.yosemite-body img {
+    width: 250px;
+}
+
+.yosemite-about div p {
+    padding-bottom: 20px;
+}
+
+footer img{
     height: 300px;
     width: 100%;
 }
 
 footer {
     background-color: #F9E7DC;
+    text-align: center;
 }
